@@ -21,7 +21,7 @@ const Navbar = () => {
       </button>
       <div
         className={
-          !nav
+          nav
             ? `fixed left-0 top-0 bg-[#000300] w-[60%] h-full border-r border-gray-900 ease-in-out duration-500`
             : `fixed left-[-100%]`
         }
