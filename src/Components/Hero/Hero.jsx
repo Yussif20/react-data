@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="text-white">
       <div className="flex flex-col text-center mx-auto mt-[96px] w-full h-screen max-w-[800px]">
-        <p className="uppercase text-[#00df9a] font-bold p-2 ">
+        <p className="uppercase text-[#00df9a] font-bold p-2 text-xl md:text-2xl ">
           Growing with data analytics
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
@@ -15,7 +15,7 @@ function Hero() {
             Fast,flexible financing for
           </p>
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold text-[#00df9a] md:pl-4 pl-2"
+            className="sm:text-3xl md:text-4xl text-2xl font-bold text-[#00df9a] md:pl-4 pl-2"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
             backSpeed={140}
